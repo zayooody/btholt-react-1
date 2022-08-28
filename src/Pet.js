@@ -1,7 +1,7 @@
 const Pet = (props) => {
   const { name, animal, breed, images, location, id } = props;
 
-  let hero = "http://pets-images.dev-apis.com/pets/none.jpg";
+  let hero = "https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Dog-512.png";
   if (images.length) {
     hero = images[0];
   }
